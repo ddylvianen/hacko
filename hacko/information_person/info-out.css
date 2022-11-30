@@ -1,0 +1,117 @@
+html {
+    z-index: 1;
+    background-size: 400% 400%;
+    width: 99%;
+    height: 100vh;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 2px;
+    width: 99%;
+    color: rgb(10, 10, 10);
+    background-color: #0000;
+    margin: 0;
+
+}
+
+.nav-header {
+    width: 100%;
+    height: 33px;
+    border-style: dotted;
+    border-radius: 6px;
+    background-color: coral;
+    margin: 0;
+}
+
+.info {
+    width: 100%;
+    height: 590px;
+    border-style: double;
+    margin-right: 0;
+}
+
+.photo {
+    width: 10%;
+    height: 100px;
+    border-style: dotted;
+    float: left;
+    margin-left: 8px;
+    margin-right: 0;
+    border-radius: 6px;
+}
+
+.pinfo {
+    padding: 0;
+    width: 67.5%;
+    height: 100px;
+    margin-left: 4px;
+    border-style: dotted;
+    float: left;
+    margin-right: 0;
+    border-radius: 6px;
+}
+
+.infolist {
+    width: 20%;
+    height: inherit;
+    float: left;
+    border-style: dotted;
+    margin-right: 0;
+}
+
+.grades {
+    width: 32%;
+    height: 480px;
+    border-style: dotted;
+    float: left;
+    margin-left: 8px;
+    margin-top: 4px;
+    margin-right: 0;
+    border-radius: 6px;
+}
+
+.reviews {
+    width: 45%;
+    height: 480px;
+    border-style: dotted;
+    float: left;
+    margin-left: 8px;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-right: 0;
+    border-radius: 6px;
+}
+
+.nav-header li{
+    text-align: center;
+    display: inline-block;
+    float: none;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.nav{
+    font-size: 50px;
+    top: 0;
+    left: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.name{
+    border-style: groove;
+    float: left;
+    top: 0;
+}
+
+.otherinfo{
+    bottom: 0;
+    float: left;
+}

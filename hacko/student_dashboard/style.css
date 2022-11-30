@@ -1,0 +1,272 @@
+html {
+    z-index: 1;
+    background-size: 400% 400%;
+    width: 100%;
+    height: 95vh;
+    background: rgb(47,72,88);
+background: linear-gradient(90deg, rgba(47,72,88,1) 0%, rgba(0,110,134,1) 20%, rgba(0,150,157,1) 40%, rgba(0,189,148,1) 60%, rgba(0,225,108,1) 80%, rgba(148,255,0,1) 100%);
+background: rgb(47,72,88);
+background: linear-gradient(90deg, rgba(47,72,88,1) 0%, rgba(0,110,134,1) 25%, rgba(0,150,157,1) 50%, rgba(0,189,148,1) 75%, rgba(0,225,108,1) 100%);
+}
+
+.studentdash {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.none{
+    display: none;
+}
+
+/*informationlist stuff*/
+
+.infolist{
+    border-radius: 14px;
+    align-items: left;
+    width: 20%;
+    height: 85vh;
+    margin-left: 10px;
+    margin-top: 4px;
+    float: left;
+    border-radius: 14px;
+    background-color: #00C58D;
+    overflow-y: auto;
+
+
+}
+
+.classnames ul{
+    list-style-type: none;
+    padding-left: 0px;
+    height: auto;
+    width: 25%;
+    float: left;
+    margin: 0;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.classnames ul li{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-left: 4px;
+    margin-bottom: 9px;
+    border-radius: 9px;
+    background-color: #006a7f;
+}
+
+.classnames ul li:hover{
+    border-radius: 9px;
+    background-color: #006a7f9c;
+}
+
+.classnames ul li:active{
+    color: #749F82;
+    background-color:#6099A8;
+}
+
+
+
+/*arrow stuff*/
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  /*------*/
+
+
+.infoclass{
+    border-radius: 14px;
+    float: left;
+    width: 40%;
+    margin: 2px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top:15px;
+
+
+}
+
+.infoclass ul{
+    background-color: #00697F;
+    list-style-type: none;
+    padding-left: 0px;
+    height: auto;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoclass ul li{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-left: 4px;
+    margin-bottom: 9px;
+    border-radius: 9px;
+    background-color: #00E16C;
+}
+.infoclass ul li:hover{
+
+background-color:#00e16ddc;
+}
+
+.infoclass ul li:active{
+
+    background-color: #00697F;
+    color: #00697F;
+    }
+
+.infoclass ul a{
+    font-size: medium;
+    text-align: center;
+}
+/*----------------*/
+
+
+
+/*navagation stuff*/
+.nav{
+    background-color: transparent ;
+    border-radius: 14px;
+    border: hidden;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav a{
+    float: left;
+    margin: 0px;
+    text-align: center;
+    width: 50px;
+    border-radius: 0px;
+    height: 20px;
+}
+
+.nav a:hover{
+    background-color: #00bd94;
+}
+
+.nav a:active{
+    color: #006e86;
+    background-color: #006e86;
+}
+
+.im{
+    float: left;
+    width: 50px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+/*---------*/
+.planning{
+    background-color: #00C58D ;
+    width: 75%;
+    height: 200px;
+    border-radius: 14px;
+    margin-top: 4px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.rooster{
+
+    background-color: #00C58D;
+    width: 24%;
+    height: 350px;
+    border-radius: 14px;
+    float: left;
+    margin: 7px;
+}
+
+.heading{
+    text-align: center;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-collapse: collapse;
+    text-align: center;
+	vertical-align: middle;
+}
+
+caption {
+    font-weight:bolder;
+    font-size: 24px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+
+table, th, td {
+    border: 1px solid;
+    background-color:#0c85a0;
+  }
+
+th{
+    background-color: rgb(2, 139, 146);
+    font-weight: bold;
+}
+
+
+.highlight{
+
+    font-weight: bold;
+}
+.scores{
+    background-color: #00C58D;
+    width: 24%;
+    height: 350px;
+    border-radius: 14px;
+    float: left;
+    margin: 7px;
+    margin-left: 10px;
+
+}
+
+/*notes*/
+.notes{
+    background-color: #00C58D;
+    border-radius: 14px;
+    width: 24%;
+    height: 350px;
+    float: left; 
+    margin: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*----------*/
+
